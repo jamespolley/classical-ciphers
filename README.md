@@ -1,6 +1,5 @@
 # **Classical Ciphers**
 ## Encoders and Decoders for Famous Ciphers in the History of Cryptography - Created by *jamespolley*
-##### **Note:** This project is a work in progress. Improvements and additions are on the way.
 
 # **Description**
 This Python package includes encoder and decoder algorithms for the following ciphers:
