@@ -1,9 +1,10 @@
-# This file showcases examples of each cipher in this project!
+"""This file showcases examples of each cipher in this project!
+"""
+
 import caesar
 import rot13
 import trithemius
 import vigenere
-# -------1---------2---------3---------4---------5---------6---------7---------8
 
 print("""
  -----------------------------------------------------
@@ -43,4 +44,3 @@ print("Cipher    >>", vig_msg_enc)
 vig_msg_dec = vigenere.decode(vig_msg_enc, vig_kw)
 print("Plaintext >>", vig_msg_dec)
 print("About: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher", "\n")
-

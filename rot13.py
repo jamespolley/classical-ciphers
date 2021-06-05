@@ -5,9 +5,9 @@ import alphabet
 def encode(message):
     message_encoded = []
     for char in message:
-        idx, upper_case = alphabet.index(char)
-        if idx != -1:
-            message_encoded += alphabet.char(idx + 13, upper_case)
+        index, upper_case = alphabet.index(char)
+        if index != -1:
+            message_encoded += alphabet.char(index + 13, upper_case)
         else:
             message_encoded += char
     message_encoded_final = "".join(message_encoded)

@@ -6,9 +6,9 @@ def encode(message, offset=0, invert_offset=False):
     message_encoded = []
     offset_value = 1 if invert_offset else -1
     for char in message:
-        idx, upper_case = alphabet.index(char)
-        if idx != -1:
-            message_encoded += alphabet.char(idx + offset, upper_case)
+        index, upper_case = alphabet.index(char)
+        if index != -1:
+            message_encoded += alphabet.char(index + offset, upper_case)
             offset += (1 * offset_value)
         else:
             message_encoded += char
